@@ -646,7 +646,7 @@ form {
 
 #main-content h3 {
   margin-top: 24px;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 18px;
   font-weight: bold;
@@ -770,6 +770,23 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+/****************
+ #Custom styles - Luis Rojas
+*********************/
+.content-project{
+    overflow: hidden;
+}
+
+.content-project ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.content-project ul li{
+    display: inline-block;
+}
+
+
 /* #Media Queries
 ================================================== */
 
@@ -878,4 +895,3 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
-
