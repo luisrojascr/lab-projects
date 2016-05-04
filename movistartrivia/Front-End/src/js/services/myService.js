@@ -1,0 +1,3 @@
+angular.module('movistarStarWarsApp').service('MyCtrl', function () {
+  // ...
+});

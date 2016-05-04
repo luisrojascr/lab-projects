@@ -1,0 +1,62 @@
+{
+  "Data": {
+    "hashtag": "movistarcr"
+  },
+  "Preguntas": {
+    "0": {
+      "texto": "¿Quién es este personaje?",
+      "respuesta": "a",
+      "codigo": "13x"
+    },
+    "1": {
+      "texto": "¿Quién entrenó a Obi-Wan?",
+      "respuesta": "b",
+      "codigo": "24y"
+    },
+    "2": {
+      "texto": "¿Cuál es el nombre de este personaje?",
+      "respuesta": "a",
+      "codigo": "35z"
+    },
+    "3": {
+      "texto": "¿Donde pasó su niñez Darth Vader?",
+      "respuesta": "b",
+      "codigo": "46w"
+    },
+    "4": {
+      "texto": "¿Cuál trooper es este personaje?",
+      "respuesta": "c",
+      "codigo": "57r"
+    },
+    "5": {
+      "texto": "¿A qué bando pertenece este Trooper?",
+      "respuesta": "b",
+      "codigo": "68y"
+    },
+    "6": {
+      "texto": "¿Quién es este personaje?",
+      "respuesta": "a",
+      "codigo": "79v"
+    },
+    "7": {
+      "texto": "¿A quién pertenece este Interceptor?",
+      "respuesta": "a",
+      "codigo": "90q"
+    },
+    "8": {
+      "texto": "¿Cuál frase dijo Obi Wan?",
+      "respuesta": "a",
+      "codigo": "101t"
+    },
+    "9": {
+      "texto": "Imagen que se arma",
+      "respuesta": "c",
+      "codigo": "112h"
+    },
+    "10": {
+      "texto": "Imagen que se arma",
+      "respuesta": "b",
+      "codigo": "123k"
+    }
+  }
+}

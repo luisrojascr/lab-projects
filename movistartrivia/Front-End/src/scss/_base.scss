@@ -1,0 +1,114 @@
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+::selection {
+
+}
+
+::-moz-selection {
+
+}
+
+.error {
+	color: red;
+}
+
+//Angular-ui Accordion Fix
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.accordion-toggle{
+  display: inline-block;
+  width: 100%;
+}
+
+.panel-group .panel{
+  margin-bottom: 3%;
+}
+
+.navbar-collapse{
+	padding-right: 1% !important;
+}
+
+h1{
+	font-size: 26px;
+	text-align: center;
+	margin-top: 0;
+}
+
+.navbar{
+	background-color: $neutral_1;
+}
+
+
+.navbar-logo{
+	background-image: url('../assets/movistar_logo_sombra.png');
+	background-size: 80px 50px;
+	width: 80px;
+	height: 50px;
+	float: left;
+	margin-left: 5px;
+}
+
+.navbar-default {
+	border-color: #00517A;
+	.navbar-toggle {
+		border-color: #00517A;
+		&:hover{
+			background-color: $neutral;
+		}
+		&:focus{
+			background-color: $neutral;
+		}
+		.icon-bar{
+    		background-color: $blue;
+    	}
+	}
+	.navbar-nav{
+		&>.open{
+			&>a{
+				background-color: $neutral;
+				&:hover{
+					background-color: $neutral;
+					color: $blue;
+				}
+				&:focus{
+					background-color: $neutral;
+					color: $blue;
+				}
+				color: $blue;
+			}
+		}
+		&>li{
+			&>a{
+				color: $blue;
+			}
+		}
+		.dropdown-menu{
+			&>li{
+				&>a{
+					color: $blue;
+				}
+			}
+		}
+	}
+}
+
+.cine-name{
+	text-align: center;
+}
+.mainbtn{
+	margin: 10px;
+}
+
+.landing{
+	.btns-malls{
+		margin-top: 10%;
+	}
+	a.mainbtn{
+		margin-left: 0;
+	}
+}

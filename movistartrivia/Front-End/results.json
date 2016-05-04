@@ -1,0 +1,65 @@
+[
+    {
+        "pregunta": "Cuanto es 1+1",
+        "codigo": "ABZ",
+        "ganadores": [
+            {
+                "name": "Paolo",
+                "screen_name": "@Paolo1523",
+                "codigo": "Place Holder Code"
+            },
+            {
+                "name": "Luis",
+                "screen_name": "@LuisMonti",
+                "codigo": "Place Holder Code"
+            },
+            {
+                "name": "Danny",
+                "screen_name": "@DannyCrack",
+                "codigo": "Place Holder Code"
+            }
+        ]
+    },
+    {
+        "pregunta": "Cuanto es 1+2",
+        "codigo": "JHW",
+        "ganadores": [
+            {
+                "name": "Place Holder Name",
+                "screen_name": "Place Holder Screen Name",
+                "codigo": "Place Holder Code"
+            },
+            {
+                "name": "Place Holder Name",
+                "screen_name": "Place Holder Screen Name",
+                "codigo": "Place Holder Code"
+            },
+            {
+                "name": "Place Holder Name",
+                "screen_name": "Place Holder Screen Name",
+                "codigo": "Place Holder Code"
+            }
+        ]
+    },
+    {
+        "pregunta": "Cuanto es 1+3",
+        "codigo": "TRG",
+        "ganadores": [
+            {
+                "name": "Place Holder Name",
+                "screen_name": "Place Holder Screen Name",
+                "codigo": "Place Holder Code"
+            },
+            {
+                "name": "Place Holder Name",
+                "screen_name": "Place Holder Screen Name",
+                "codigo": "Place Holder Code"
+            },
+            {
+                "name": "Place Holder Name",
+                "screen_name": "Place Holder Screen Name",
+                "codigo": "Place Holder Code"
+            }
+        ]
+    }
+]

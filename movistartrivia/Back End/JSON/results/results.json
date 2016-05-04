@@ -1,0 +1,65 @@
+[
+    {
+        "pregunta": "Cuanto es 1+1",
+        "codigo": "ABZ",
+        "ganadores": [
+            {
+                "name": "Aun no se encuentran ganadores",
+                "screen_name": "Aun no se encuentran ganadores",
+                "codigo": "Aun no se encuentran ganadores"
+            },
+            {
+                "name": "Aun no se encuentran ganadores",
+                "screen_name": "Aun no se encuentran ganadores",
+                "codigo": "Aun no se encuentran ganadores"
+            },
+            {
+                "name": "Aun no se encuentran ganadores",
+                "screen_name": "Aun no se encuentran ganadores",
+                "codigo": "Aun no se encuentran ganadores"
+            }
+        ]
+    },
+    {
+        "pregunta": "Cuanto es 1+2",
+        "codigo": "JHW",
+        "ganadores": [
+            {
+                "name": "Aun no se encuentran ganadores",
+                "screen_name": "Aun no se encuentran ganadores",
+                "codigo": "Aun no se encuentran ganadores"
+            },
+            {
+                "name": "Aun no se encuentran ganadores",
+                "screen_name": "Aun no se encuentran ganadores",
+                "codigo": "Aun no se encuentran ganadores"
+            },
+            {
+                "name": "Aun no se encuentran ganadores",
+                "screen_name": "Aun no se encuentran ganadores",
+                "codigo": "Aun no se encuentran ganadores"
+            }
+        ]
+    },
+    {
+        "pregunta": "Cuanto es 1+3",
+        "codigo": "TRG",
+        "ganadores": [
+            {
+                "name": "Aun no se encuentran ganadores",
+                "screen_name": "Aun no se encuentran ganadores",
+                "codigo": "Aun no se encuentran ganadores"
+            },
+            {
+                "name": "Aun no se encuentran ganadores",
+                "screen_name": "Aun no se encuentran ganadores",
+                "codigo": "Aun no se encuentran ganadores"
+            },
+            {
+                "name": "Aun no se encuentran ganadores",
+                "screen_name": "Aun no se encuentran ganadores",
+                "codigo": "Aun no se encuentran ganadores"
+            }
+        ]
+    }
+]
