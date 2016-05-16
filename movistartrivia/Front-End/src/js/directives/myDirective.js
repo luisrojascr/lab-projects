@@ -1,3 +1,0 @@
-angular.module('movistarStarWarsApp').directive('myControlPanel', function () {
-  // ...
-});

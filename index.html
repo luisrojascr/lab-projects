@@ -1,171 +1,51 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+<html lang="en" ng-app="assigmentsApp">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Edmodo assigments application">
+    <meta name="author" content="Luis Rojas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/styles.min.css">
+</head>
 
-    <title>Lab-projects by luisrojascr</title>
-  </head>
-
-  <body>
-    <header>
-      <div class="inner">
-        <h1>Lab-projects</h1>
-        <h2></h2>
-        <a href="https://github.com/luisrojascr/lab-projects" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
-
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-            <p>List of personal projects developed by <a href="https://github.com/luisrojascr" target="_blank">luisrojascr</a></p>
-            <div class="row">
-                <h3>Project Movietube</h3>
-                <div class="col-md-12 ">
-                    <div class="content-project">
-                        <div class="col-md-6">
-                            <img src="images/movietube.png" alt="Movietube" width="200">
-                        </div>
-                        <div class="col-md-6">
-                            <h5>Description</h5>
-                            <p>Free directory of movies, where you can search and watch movies online and free. It connects to the Youtube API</p>
-                            <p>Stack: </p>
-                            <ul>
-                                <li> <a class="btn btn-default">HTML5</a> </li>
-                                <li> <a class="btn btn-default">CSS</a> </li>
-                                <li> <a class="btn btn-default">Bootstrap</a> </li>
-                                <li> <a class="btn btn-default">Angular</a> </li>
-                            </ul>
-                            <a href="http://www.luisrojascr.com/lab/movietube/" class="btn btn-primary" target="_blank">View project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <h3>Project Blackjack</h3>
-                <div class="col-md-12">
-                    <div class="content-project">
-                        <div class="col-md-6">
-                            <img src="images/blackjack-Bet.png" alt="Blackjack" width="260">
-                        </div>
-                        <div class="col-md-6">
-                            <h5>Description</h5>
-                            <p>Blackjack application created as a College project, developed for entertainment only. It uses different design patterns to handle the views and the all game. </p>
-                            <p>Stack: </p>
-                            <ul>
-                                <li> <a class="btn btn-default">Javascript</a> </li>
-                                <li> <a class="btn btn-default">CSS</a> </li>
-                                <li> <a class="btn btn-default">jQuery</a> </li>
-                            </ul>
-                            <a href="http://www.luisrojascr.com/lab/blackjack/" class="btn btn-primary" target="_blank">View project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <h3>Project Angular Meetings</h3>
-                <div class="col-md-12">
-                    <div class="content-project">
-                        <div class="col-md-6">
-                            <img src="images/Ang_fire.png" alt="Angular Meetings" width="260">
-                        </div>
-                        <div class="col-md-6">
-                            <h5>Description</h5>
-                            <p>Angular application for handling meetings, it manages authentication and all the data with Firebase.</p>
-                            <p>Stack: </p>
-                            <ul>
-                                <li> <a class="btn btn-default">Angular</a> </li>
-                                <li> <a class="btn btn-default">Firebase</a> </li>
-                                <li> <a class="btn btn-default">HTML5</a> </li>
-                                <li> <a class="btn btn-default">CSS</a> </li>
-                            </ul>
-                            <a href="http://www.luisrojascr.com/lab/angular-meetings" class="btn btn-primary" target="_blank">View project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <h3>Project Movistar Trivia</h3>
-                <div class="col-md-12">
-                    <div class="content-project">
-                        <div class="col-md-6">
-                            <img src="images/movistar-trivia.png" alt="Movistar" width="260">
-                        </div>
-                        <div class="col-md-6">
-                            <h5>Description</h5>
-                            <p>Simple mobile responsive application to handle trivia questions via Twitter, it was created as a promotion for Star Wars premiere in Costa Rica. Pleople asked questions via Twitter with an specific hashtag to participate.
-                            Back end built with PHP which returned data in JSON format. Angular consumed the data via HTTP resource. </p>
-                            <p>Stack: </p>
-                            <ul>
-                                <li> <a class="btn btn-default">Angular</a> </li>
-                                <li> <a class="btn btn-default">PHP</a> </li>
-                                <li> <a class="btn btn-default">JSON</a> </li>
-                                <li> <a class="btn btn-default">Gulp</a> </li>
-                                <li> <a class="btn btn-default">Sass</a> </li>
-                            </ul>
-                            <a href="https://github.com/luisrojascr/lab-projects" class="btn btn-primary" target="_blank">View project Code</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <h3>Project Hacelo</h3>
-                <div class="col-md-12">
-                    <div class="content-project">
-                        <div class="col-md-6">
-                            <img src="images/inprogress.png" alt="Hacelo" width="260">
-                        </div>
-                        <div class="col-md-6">
-                            <h5>Description</h5>
-                            <p>Mobile application to choose photos from the phone or from Instagram and then add them to the cart and print the photos after checkout. </p>
-                            <p>Stack: </p>
-                            <ul>
-                                <li> <a class="btn btn-default">Angular</a> </li>
-                                <li> <a class="btn btn-default">Ionic</a> </li>
-                                <li> <a class="btn btn-default">Gulp</a> </li>
-                                <li> <a class="btn btn-default">Sass</a> </li>
-                            </ul>
-                            <a href="https://github.com/luisrojascr/hacelo_ionic" class="btn btn-primary" target="_blank">View project code</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://github.com/luisrojascr/lab-projects/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/luisrojascr/lab-projects/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/luisrojascr/lab-projects"></a> is maintained by <a href="https://github.com/luisrojascr">luisrojascr</a>.</p>
-
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
+<body>
+   
+    <div class="container-fluid page" ng-controller="AssigmentCtrl">
+        <div class="sidebar col-md-4">
+            <h3>Assigments</h3>   
+            <a ng-repeat="assigment in assigments" ng-href="#/assigment/{{assigment.id}}" ng-click="setAssigment(assigment.id)">
+                <span class="title">{{assigment.title}}</span>
+                <span class="due-at">Due {{assigment.due_at | date:'mediumDate'}}</span>
+            </a>
+            
+        </div>
+        <div class="col-md-8">
+          <!-- Nav tabs -->
+          <ul ng-show="showTabs" class="nav nav-tabs" role="tablist">    
+            <li role="presentation" ng-class="{ active: $route.current.activetab == 'assigment'}"><a ng-href="#/assigment/{{id}}" aria-controls="assignment" role="tab" data-toggle="tab">Assigments</a></li>
+            <li role="presentation" ng-class="{ active: $route.current.activetab == 'submission'}"><a ng-href="#/submission/{{id}}" aria-controls="submission" role="tab" data-toggle="tab">Submission</a></li>
+          </ul>
+          <div ng-view></div>
+        </div>
     </div>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Edmodo assigments project - Luis Rojas - 2016</p>
+      </div>
+    </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </body>
+    <!-- Scripts -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="dist/vendor/keepr.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.14.3.js"></script>
+    <script src="dist/js/app.js"></script>
+</body>
+
 </html>

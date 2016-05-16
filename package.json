@@ -1,0 +1,29 @@
+{
+  "name": "edmodo-assigments",
+  "version": "0.0.1",
+  "description": "Edmodo assigments project",
+  "main": "dist/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luisrojascr/edmodo-assigments.git"
+  },
+  "author": "Luis Rojas",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-clean-css": "^2.0.7",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-livereload": "^3.8.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^1.0.5",
+    "gulp-sass": "~2.1.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}

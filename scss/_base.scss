@@ -1,0 +1,110 @@
+html,
+body {
+	width: 100%;
+}
+
+::selection {
+	background: $blue;
+}
+
+::-moz-selection {
+	background: $blue;
+}
+
+.error {
+	color: red;
+}
+
+sup {
+  top: -0.5em;
+}
+
+.navbar-collapse {
+    padding-right: 1%!important;
+}
+
+ul{
+  padding-left: 0;
+  li{
+    list-style-type: none;
+  }
+}
+
+h3 {
+  background: #F7F7F7;
+  padding: 10px;
+}
+
+.page{
+  margin-bottom: 5%;
+  margin-top: 15px;
+}
+
+.nav-tabs{
+  margin-top: 20px;
+}
+
+/* ================ Sidebar ================ */
+.sidebar{
+  h3{
+    margin-bottom: 0;
+  }
+  a{
+    box-shadow: 1px 1px 1px #BFBFBF;
+    padding: 15px;
+    display: block;
+    font-size: 1.4em;
+    text-decoration: none;
+    span{
+      color: #696969;
+      display: block;
+      &.title{
+        color: $green;
+      }
+      &.due-at{
+        font-size: 0.7em;
+      }
+    }
+    &:hover{
+      background: #F7F7F7;
+      text-decoration: none;
+    }
+  }
+}
+
+
+/* ================ Footer ================ */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #e7e7e7;
+  .text-muted{
+    text-align: center;
+  }
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}

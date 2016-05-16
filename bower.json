@@ -1,0 +1,26 @@
+{
+  "name": "edmodo-assigments",
+  "description": "Edmodo assigments project",
+  "main": "dist/js/app.js",
+  "author": "Luis Rojas",
+  "license": "BSD-2-Clause",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.8",
+    "font-awesome": "fontawesome#~4.5.0",
+    "bootstrap-sass": "~3.3.6",
+    "angular-animate": "~1.4.8",
+    "angular-route": "~1.4.8"
+  }
+}

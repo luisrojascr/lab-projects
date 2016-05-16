@@ -1,0 +1,21 @@
+<div class="row detail submission-page">
+ <div class="col-lg-12 main-content">
+  
+   <h3>Submission</h3>
+   
+    <uib-accordion close-others="oneAtATime">
+      
+      <uib-accordion-group is-open="status.open" ng-repeat="submission in submissions">
+        <uib-accordion-heading>
+          <img ng-src="{{submission.creator.avatars.small}}" alt="avatar user" class="avatar-user">
+          <div class="content-info">
+            <span class="user-info">{{submission.creator.first_name}}  {{submission.creator.last_name}}</span>
+            <span class="submitted">{{submission.submitted_at | date:'medium' }}</span>
+          </div>
+        </uib-accordion-heading>
+        <p>{{submission.content}}</p>
+      </uib-accordion-group>
+    </uib-accordion> 
+  
+ </div>
+</div>

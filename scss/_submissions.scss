@@ -1,0 +1,22 @@
+/* Submission section styles
+-------------------------------------------------- */
+
+.submission-page {
+    h4{
+        overflow: hidden;
+    }
+    .avatar-user{
+        width: 42px;
+        height: 42px;
+        float: left;
+        margin-right: 10px;
+    }
+    .content-info{
+        margin-top: 10px;
+    }
+    span{
+        &.submitted{
+            float: right;
+        }
+    }
+}
