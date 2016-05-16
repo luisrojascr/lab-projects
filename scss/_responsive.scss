@@ -1,0 +1,10 @@
+/**************** 2. Breakpoint 768px *********************/
+@media only screen and (max-width: 768px) { 
+    .assigment-page .due_at, .submission-page span.submitted {
+        float: none;
+        display: block;
+    }
+    .submission-page .content-info{
+        margin-top: 5px;
+    }
+}
